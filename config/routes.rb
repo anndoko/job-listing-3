@@ -3,5 +3,5 @@ Rails.application.routes.draw do
 
   resources :jobs
 
-  root 'welcome#index'
+  root 'jobs#index'
 end
