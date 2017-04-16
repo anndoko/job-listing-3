@@ -5,8 +5,6 @@ Rails.application.routes.draw do
     resources :resumes
   end
 
-  root 'jobs#index'
-
   namespace :admin do
     resources :jobs do
       member do
@@ -18,5 +16,12 @@ Rails.application.routes.draw do
     end
   end
 
+  # set main page
+
+  root 'welcome#index'
+
+  resources :welcome do
+
+  end
 
 end

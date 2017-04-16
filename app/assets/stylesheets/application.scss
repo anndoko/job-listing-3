@@ -31,3 +31,32 @@
   box-shadow: 3px 3px 0px transparent;
   transition: 0.5s;
 }
+
+.jumbotron {
+  background-image:url('https://ww4.sinaimg.cn/large/006tNc79gy1feot0s5dn8j30sg0iyta7.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 110px;
+}
+
+.title {
+  font-family: "Helvetica Neue";
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 80px;
+  color: navy;
+}
+
+.slogan {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: navy;
+  top: 12px;
+}
+
+.lead {
+  margin-bottom: 60px;
+  text-align: center;
+  color: white;
+}
